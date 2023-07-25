@@ -45,7 +45,7 @@ const TopSellings = () => {
                 <Item
                   key={item.id}
                   name={item.title}
-                  image={item.images[2]}
+                  image={item.images[0]}
                   id={item.id}
                   price={item.price}
                 ></Item>

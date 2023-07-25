@@ -13,7 +13,7 @@ const Discount = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get("https://api.escuelajs.co/api/v1/products?limit=11&offset=3")
+      .get("https://api.escuelajs.co/api/v1/products?limit=15&offset=3")
       .then((res) => setData(res.data));
   }, []);
   const slicedData = data.slice(8, 11);
@@ -46,7 +46,7 @@ const Discount = () => {
                 <Item
                   key={item.id}
                   name={item.title}
-                  image={item.images[1]}
+                  image={item.images[0]}
                   id={item.id}
                   price={item.price}
                 ></Item>
