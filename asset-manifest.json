@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/jeliaaa/ecommercee/static/css/main.2390a5a7.css",
+    "main.js": "/jeliaaa/ecommercee/static/js/main.0cbcaa11.js",
+    "static/js/787.dcc73137.chunk.js": "/jeliaaa/ecommercee/static/js/787.dcc73137.chunk.js",
+    "static/media/coll_cover.png": "/jeliaaa/ecommercee/static/media/coll_cover.7d977e934676a94dfc24.png",
+    "static/media/sellings.png": "/jeliaaa/ecommercee/static/media/sellings.66189cddc440cd13a3cd.png",
+    "static/media/discImg.png": "/jeliaaa/ecommercee/static/media/discImg.43847d9552509687f07d.png",
+    "static/media/hero.png": "/jeliaaa/ecommercee/static/media/hero.6d9621962dcacf3b0d88.png",
+    "index.html": "/jeliaaa/ecommercee/index.html",
+    "main.2390a5a7.css.map": "/jeliaaa/ecommercee/static/css/main.2390a5a7.css.map",
+    "main.0cbcaa11.js.map": "/jeliaaa/ecommercee/static/js/main.0cbcaa11.js.map",
+    "787.dcc73137.chunk.js.map": "/jeliaaa/ecommercee/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2390a5a7.css",
+    "static/js/main.0cbcaa11.js"
+  ]
+}

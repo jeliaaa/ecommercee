@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Kakhi Kakhidze",
+        "role" : "Housekeeper",
+        "memberImage" : "https://picsum.photos/640/640?r=7533"
+    },
+    {
+        "name": "Solomon Bagrationi",
+        "role" : "King",
+        "memberImage" : "https://picsum.photos/640/640?r=7534"
+    },
+    {
+        "name": "Steven Rogers",
+        "role" : "Boy from Brooklin",
+        "memberImage" : "https://picsum.photos/640/640?r=7535"
+    }
+]
