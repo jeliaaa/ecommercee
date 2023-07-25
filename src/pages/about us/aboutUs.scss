@@ -1,0 +1,80 @@
+.about_us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        h1 {
+            color: blue;
+            text-transform: uppercase;
+        }
+
+        p {
+            width: 92%;
+            border: 1px solid black;
+            padding: 25px;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+
+
+}
+
+.team-members {
+    width: 50%;
+    h1 {
+        text-align: right;
+        color: red;
+    }
+
+    .members {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        .members-div {
+            border: 1px solid black;
+            width: 100%;
+            padding: 35px 0;
+        }
+
+        .member {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                color: black;
+            }
+
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+@media screen and  (max-width: 1400px){
+    .about_us{
+        flex-direction: column;
+        .info, .team-members{
+            width: 100%;
+        }
+    }
+}
+@media screen and  (max-width: 430px){
+    .about_us{
+        padding: 0;
+        .info{
+            p{
+                width: 100%;
+                padding: 0 !important;
+            }
+        }
+    }
+}

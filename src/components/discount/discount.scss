@@ -1,0 +1,109 @@
+.mySwiper2 {
+    width: 100%;
+    padding: 0 20px;
+
+    img {
+        width: 320px;
+    }
+
+    .swiper-wrapper {
+        width: 100%;
+    }
+
+    a {
+        color: black;
+        text-align: center;
+    }
+}
+
+.discount {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    overflow: hidden;
+
+    .discount-left {
+        width: 35%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .discount-right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .div-heading {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin-bottom: 20px;
+
+            span {
+                color: #E2342D;
+                font-family: 'Poppins', sans-serif;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin: 0;
+            }
+
+            h1 {
+                color: #4A4B4D;
+                font-family: 'Poppins', sans-serif;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin: 0;
+            }
+
+            button {
+                border: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .discount-left {
+        display: none;
+
+        img {
+            display: none;
+        }
+    }
+
+    .discount-right {
+        width: 100% !important;
+
+        img {
+            width: 600px;
+        }
+    }
+
+    .mySwiper2 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .discount-right {
+
+        h1,
+        span {
+            font-size: 20px !important;
+
+        }
+
+        img {
+            width: 250px !important;
+        }
+
+    }
+}

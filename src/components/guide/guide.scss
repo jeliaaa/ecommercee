@@ -1,0 +1,48 @@
+.guide {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 70px;
+    
+    p {
+        width: 650px;
+        height: 22px;
+        flex-shrink: 0;
+        color: #222;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    h1 {
+        span {
+            color: #E2342D;
+            font-family: 'Poppins', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        color: #231F20;
+        font-family: 'Poppins',
+        sans-serif;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .guide {
+        p {
+            width: 300px
+        }
+    }
+
+}
