@@ -16,7 +16,7 @@ const TopSellings = () => {
       .get("https://api.escuelajs.co/api/v1/products?limit=9&offset=3")
       .then((res) => setData(res.data));
   }, []);
-  const slicedData = data.slice(0, 3);
+  const slicedData = data.slice(4, 7);
   return (
     <div className="top-sellings">
       <section className="top-sellings-left">
